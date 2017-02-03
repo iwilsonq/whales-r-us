@@ -145,14 +145,15 @@ a:hover, a:focus {
   font-size: 20px;
 }
 
-.block-icon-left.icon-content {
-  float: left;
-  width: 70%;
+.block {
+  display: flex;
+}
+
+.icon-content {
+  padding-left: 15px;
 }
 
 .block-icon-left.icon {
-  float: left;
-  width: 30%;
   margin-top: 10px;
 }
 
@@ -179,7 +180,7 @@ a:hover, a:focus {
 }
 
 #clients img {
-  margin-right: 30px;
+  width: 30vw;
 }
 
 #contact {
