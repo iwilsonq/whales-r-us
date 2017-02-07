@@ -1,0 +1,22 @@
+{
+  "name": "whale-startups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwilsonq/whales-r-us.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwilsonq/whales-r-us/issues"
+  },
+  "homepage": "https://github.com/iwilsonq/whales-r-us#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
