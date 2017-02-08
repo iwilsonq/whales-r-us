@@ -69,6 +69,10 @@ a:hover, a:focus {
   color: #f4f4f4;
 }
 
+.icon-bar {
+  background-color: #fff;
+}
+
 @media(min-width: 767px) {
   .navbar {
     padding: 20px 0;
