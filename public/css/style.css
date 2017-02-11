@@ -119,6 +119,23 @@ a:hover, a:focus {
   background-size: cover;
 }
 
+#countdown {
+  display:flex;
+  padding: 20px 10px;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#countdown .remaining {
+  padding: 5px;
+  font-size: 24px;
+  color: #333;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+
 .intro-body {
   display: table-cell;
   vertical-align: middle;
@@ -129,7 +146,8 @@ a:hover, a:focus {
 }
 
 .intro-text {
-  font-size: 18px;
+  background-color: #333;
+  padding: 10px;
 }
 
 @media(min-width: 767px) {
@@ -203,18 +221,14 @@ a:hover, a:focus {
 }
 
 .jobs-list {
-  display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .jobs-list .job-title {
-  flex: 1 1;
-  flex-wrap: wrap;
   padding-left: 10px;
   padding-bottom: 5px;
-  border-left: 2px solid #333;
 }
 
 #positions .container {
