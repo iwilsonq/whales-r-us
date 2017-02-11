@@ -143,6 +143,12 @@ a:hover, a:focus {
   border-radius: 3px;
 }
 
+@media(max-width: 500px) {
+  #countdown .remaining {
+    font-size: 3vh;
+  }
+}
+
 
 .intro-body {
   display: table-cell;
