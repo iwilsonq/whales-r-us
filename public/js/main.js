@@ -20,6 +20,7 @@ $(function() {
   const deadline = '2017-3-13';
   initializeCountdown('countdown', deadline);
 
+
   function getTimeRemaining(endtime) {
     let t = Date.parse(endtime) - Date.parse(new Date());
     let seconds = Math.floor( (t/1000) % 60 );
@@ -37,16 +38,24 @@ $(function() {
 
   function initializeCountdown(id, endtime) {
     let countdown = document.getElementById(id);
-    let timeInterval = setInterval(function() {
-      let t = getTimeRemaining(endtime);
-      countdown.innerHTML = '<div class="remaining">Days: ' + t.days + '</div>' +
-                        '<div class="remaining">Hours: '+ t.hours + '</div>' +
-                        '<div class="remaining">Minutes: ' + t.minutes + '</div>' +
-                        '<div class="remaining">Seconds: ' + t.seconds + '<div>';
-      if (t.total <= 0) {
-        clearInterval(timeInterval);
-      }
-    }, 1000);
+    var daysSpan = countdown.querySelector('.days');
+    var hoursSpan = countdown.querySelector('.hours');
+    var minutesSpan = countdown.querySelector('.minutes');
+    var secondsSpan = countdown.querySelector('.seconds');
 
+    function updateClock() {
+      let t = getTimeRemaining(endtime);
+      daysSpan.innerHTML = t.days;
+      hoursSpan.innerHTML = t.hours;
+      minutesSpan.innerHTML = t.minutes;
+      secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+      if(t.total<=0){
+        clearInterval(timeinterval);
+      }
+    }
+    updateClock();
+    let timeInterval = setInterval(updateClock, 1000);
   }
+
+
 });
