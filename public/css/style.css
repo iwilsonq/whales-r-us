@@ -49,7 +49,7 @@ a:hover, a:focus {
 }
 
 .navbar-custom a {
-  color: #f4f4f4;
+  color: #333;
 }
 
 .navbar-custom .nav li a {
@@ -73,6 +73,12 @@ a:hover, a:focus {
   background-color: #fff;
 }
 
+@media(max-width: 766px) {
+  .navbar a {
+    color: #f4f4f4;
+  }
+}
+
 @media(min-width: 767px) {
   .navbar {
     padding: 20px 0;
@@ -86,6 +92,11 @@ a:hover, a:focus {
   .top-nav-collapse {
     padding: 0;
     background-color: #333333;
+  }
+
+  .top-nav-collapse a {
+    color: #f4f4f4;
+    transition: 0.5s;
   }
 
   .navbar-custom.top-nav-collapse {
@@ -161,7 +172,7 @@ a:hover, a:focus {
   margin-top: 10px;
 }
 
-.who-section {
+.about {
   width: 100%;
   padding: 50px 0;
   color: #f4f4f4;
@@ -173,18 +184,47 @@ a:hover, a:focus {
   background-size: cover;
 }
 
+.about .container .lead {
+  text-align: left;
+}
+
 @media(min-width: 767px) {
-  .who-section {
+  .about {
     padding: 100px 0;
   }
 }
 
-#clients {
-  text-align: center;
+#positions {
+  padding-top: 20px;
 }
 
-#clients img {
+#positions img {
   width: 30vw;
+}
+
+.jobs-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.jobs-list .job-title {
+  flex: 1 1;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-left: 2px solid #333;
+}
+
+#positions .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#positions a {
+  margin-top: 25px;
 }
 
 #contact {
