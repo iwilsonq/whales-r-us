@@ -32,6 +32,10 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+.big-lead {
+  font-size: 26px;
+}
+
 .navbar {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255,255,255,0.3);
@@ -237,6 +241,7 @@ a:hover, a:focus {
 .jobs-list {
   list-style: none;
   padding: 0;
+  padding-left: 70px;
   margin: 0;
 }
 
