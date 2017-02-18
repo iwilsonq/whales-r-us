@@ -109,13 +109,17 @@ a:hover, a:focus {
 }
 
 .intro {
-  display: table;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   width: 100%;
-  height: auto;
-  padding: 100px 0;
+  height: 90vh;
   text-align: center;
   color: #f4f4f4;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background-image: url(../img/fb-banner-white.png);
+  background-repeat: no-repeat;
+  background-position: 61% 0%;
   background-color: #333333;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -127,11 +131,10 @@ a:hover, a:focus {
   display:flex;
   justify-content: space-around;
   padding: 20px 10px;
+  margin-bottom: 20px;
   max-width: 460px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 25px;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,1);
+  border-radius: 12px;
 }
 
 #countdown .remaining {
@@ -139,6 +142,7 @@ a:hover, a:focus {
   font-size: 24px;
   color: #333;
   background-color: #f4f4f4;
+  margin: 0 10px;
   border-radius: 8px;
 }
 .remaining .time {
@@ -147,27 +151,19 @@ a:hover, a:focus {
   border-radius: 3px;
 }
 
-@media(max-width: 500px) {
-  #countdown .remaining {
-    font-size: 3vh;
+@media(max-width: 766px) {
+  #countdown {
+    padding: 16px 8px;
   }
-}
-
-
-.intro-body {
-  display: table-cell;
-  vertical-align: middle;
+  #countdown .remaining {
+    font-size: 2.5vh;
+    margin: 0 8px;
+  }
 }
 
 .brand-heading {
   font-size: 40px;
 }
-
-.intro-text {
-  background-color: #333;
-  padding: 10px;
-}
-
 @media(min-width: 767px) {
   .intro {
     height: 100%;
@@ -175,9 +171,6 @@ a:hover, a:focus {
   }
   .brand-heading {
     font-size: 100px;
-  }
-  .intro-text {
-    font-size: 25px;
   }
 }
 
