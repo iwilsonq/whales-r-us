@@ -117,14 +117,23 @@ a:hover, a:focus {
   height: 90vh;
   text-align: center;
   color: #f4f4f4;
-  background-image: url(../img/fb-banner-white.png);
+  background-image: url(../img/banner.png);
   background-repeat: no-repeat;
-  background-position: 61% 0%;
-  background-color: #333333;
+  background-position: calc(50% - 10px) 50%;
+  background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media(max-width: 837px) {
+  .intro {
+    -webkit-background-size: 170vw auto;
+    -moz-background-size: 170vw auto;
+    -o-background-size: 170vw auto;
+    background-size: 170vw auto;
+  }
 }
 
 #countdown {
