@@ -15,7 +15,7 @@ $(function() {
     event.preventDefault();
   });
 
-  const deadline = '2017/3/13';
+  const deadline = '2017/4/3';
   initializeCountdown('countdown', deadline);
 
   function initializeCountdown(id, endtime) {
