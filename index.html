@@ -1,157 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <title>Whale Startups</title>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
 
-  <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <nav class="navbar navbar-custom navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand em-text" href="#">Whale Startups</a>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+</head>
+
+<style>
+.navbar-brand
+{
+    padding-top: 0;
+}
+
+p {
+    font-size: 20px;
+}
+</style>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                  <img src= "./img/WhaleNavLogo.png" width="50px" height="50px">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#mission">Mission</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#products">Products</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#openings">Openings</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div id="navbar" class="collapse navbar-collapse navbar-right navbar-main-collapse">
-          <ul class="nav navbar-nav">
-            <li class="hidden">
-              <a href="#page-top">WhaleTalk</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#products">Products</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#who">About</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#positions">Positions</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+        <!-- /.container-fluid -->
     </nav>
 
-    <section class="intro">
-      <a href="https://WhaleTalk.Whalestartups.com/" class="whaletalk btn btn-default btn-large">Try WhaleTalk</a>
-    </section>
+    <!-- Banner -->
+    <header>
+		<img src= "https://files.slack.com/files-pri/T3ZS0L2TE-F5L8CKXA4/no_sm.png" class="img-responsive" alt="Responsive image">
+    </header>
 
-    <section id="products" class="content-section">
+	<!-- Our Mission -->
+    <section id="mission" class="bg-success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Mission</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                      Whale Startups is a new and innovative startup company based at The University of California, Irvine that aims to develop technology to make people's lives easier. We are a passionate group of individuals that have an ambition to infuse our talent into the tech world.
+                      We specialize in cross platform applications and bleeding edge technology. Our members are dedicated to bringing you apps that enhance your favorite activities. We seek to create unique products that connect people and ideas from all over the world.
+                    </p>
+                </div>
+                <div id="mailform" class="row text-center">
+					<form>
+					    <button>Click here to stay informed!</button>
+					    <div class="inner">
+						    <div id="mc_embed_signup">
+								<form action="//whalestartups.us16.list-manage.com/subscribe/post?u=5f62d05f476258d544aaf7445&amp;id=543b475103" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		    						<div id="mc_embed_signup_scroll">
+										<div class="mc-field-group">
+											<input type="email" value="" placeholder="Email..." name="EMAIL" class="required email" id="mce-EMAIL">
+											<input type="submit" value="Stay Informed!" name="subscribe" id="mc-embedded-subscribe" class="button">
+										</div>
+										<div id="mce-responses" class="clear">
+											<div class="response" id="mce-error-response" style="display:none"></div>
+											<div class="response" id="mce-success-response" style="display:none"></div>
+										</div>
+		    							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5f62d05f476258d544aaf7445_543b475103" tabindex="-1" value="">
+		    							</div>
+		    						</div>
+								</form>
+							</div>
+						</form>
+					</div>
+				</div>
+
+            </div>
+        </div>
+	</section>
+
+  <!-- Our Products -->
+  <section id="products" class="content-section bg-primary">
       <h2 class="text-center">Products</h2>
-      <br>
+      <hr class="star-light">
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <h3>WhaleTalk</h3>
+            <figure>
+              <img src="./img/GrooveeTemp.png" height="130px" width="130px">
+              <figcaption>
+                  <h3>Groovee</h3>
+                </a>
+              </figcaption>
+            </figure>
           </div>
           <div class="col-sm-8">
             <p>
-              <strong>WhaleTalk</strong> is an application that makes it easier to instantaneously connect with your classmates. By inputing your own school schedule you are put into a group chat with everyone in your class. Users can choose to interact anonymously or not. We encourage students to connect with their classmates to answer questions, form study groups, or discuss lecture topics.
+              <strong>Groovee</strong> is a unique app that connects DJs to their audience.
             </p>
           </div>
         </div>
-        <div class="row text-center">
-          <div class="col-md-offset-2 col-md-8">
-            <h3>
-              <br />
-              <br />
-              Got an app idea? Tell us about it!
-            </h3>
-            <a href="#contact" class="btn btn-default btn-lg">Contact</a>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-    <section id="who" class="content-section text-center">
-      <div class="about">
-        <div class="container">
-          <h2>Who Are We?</h2>
-          <p class="lead">
-            <strong>Whale Startups</strong> is a new and innovative startup company based at The University of California, Irvine that aims to develop technology to make people's lives easier. We are a passionate group of individuals that have an ambition to take over the tech world.
-          </p>
-          <p class="lead">
-            We specialize in cross platform applications and revolutionary technology. Our members engage in an intense and fast-paced startup environment to release a new product every 5-10 weeks. We seek to create unique products that connect people and ideas from all over the world to revolutionize the industry.
-          </p>
-
-          <a href="#contact" class="btn btn-default btn-lg">Contact Us Now</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="positions" class="content-section">
-      <div class="container">
-        <h2 class="text-center">Position Openings</h2>
-        <p class="lead">
-          Want to be a part of our team? We're currently looking to fill the following openings:
-        </p>
-        <ul class="jobs-list lead">
-          <li class="job-title">Marketing Lead</li>
-          <li class="job-title">Developers</li>
-          <li class="job-title">Research and Development</li>
-          <li class="job-title">Designer</li>
-          <li class="job-title">Application Designer</li>
-          <li class="job-title">Social Media Associate</li>
-        </ul>
-        <a href="https://drive.google.com/drive/u/0/folders/0B4u_l2MlUtlUS2plZXRZZTFqTHM" class="btn btn-default btn-lg">View Job Descriptions</a>
-        <a href="https://goo.gl/forms/yoIvd9pmcckrDePg1" class="btn btn-default btn-lg">Apply Now</a>
-      </div>
-    </section>
-
-    <section id="contact" class="content-section text-center">
-      <div class="container">
         <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <h2>Contact Whale Startups</h2>
-            <p>Feel free to harpoon us an email at any time for any reason. You can also check us out on Facebook</p>
-            <p><a href="mailto:whalestartups@gmail.com">whalestartups@gmail.com</a></p>
-            <ul class="list-inline banner-social-buttons">
-              <li><a href="https://www.facebook.com/WhaleStartups/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a></li>
-            </ul>
+          <h3></h3> <!-- pro spacing -->
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <figure>
+              <img src="./img/whaleTalkLogo.png" height="130px" width="130px">
+              <figcaption>
+                <a href="https://whaletalk.whalestartups.com/#/login" style="color:inherit;" target="_blank">
+                  <h3>WhaleTalk</h3>
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-8">
+            <p>
+              <strong>Whale Talk</strong> is an application that makes it easier to instantaneously connect with your classmates. By inputing your own school schedule you are put into a group chat with everyone in your class. Users can choose to interact anonymously or not. We encourage students to connect with their classmates to answer questions, form study groups, or discuss lecture topics.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <footer>
+	<!-- Our Team -->
+	<section class="content-section" style="padding: 0 0;">
+	<div class="container" style="width:100%;" >
+		<div id="team" class="col-lg-12 text-center">
+			<h2>Team</h2>
+			<hr class="star-light">
+		</div>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="team-member">
+								<img src="https://cdn0.iconfinder.com/data/icons/superuser-web-kit/512/686909-user_people_man_human_head_person-256.png" class="img-responsive img-circle" alt="">
+								<h4>Sasha Yusuf</h4>
+								<h4>Co-Founder</h4>
+								<p class="text-muted">
+								Sasha is a senior at UC Irvine, an aspiring lawyer, entrepreneur, and a current badass. He motivates the team with occasional mediocre snacks. No one actually knows what he does except for him.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="team-member">
+								<img src="https://cdn0.iconfinder.com/data/icons/superuser-web-kit/512/686909-user_people_man_human_head_person-256.png" class="img-responsive img-circle" alt="">
+								<h4>Anthony Bilic</h4>
+								<h4>Co-Founder</h4>
+								<p class="text-muted">
+								Anthony is from San Jose and a student at University of California, Irvine. He’s majoring in computer science and is one of the founders. Outside of Whale Startups Anthony enjoys running and bugging Jacob.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="team-member">
+								<img src="https://cdn0.iconfinder.com/data/icons/superuser-web-kit/512/686909-user_people_man_human_head_person-256.png" class="img-responsive img-circle" alt="">
+								<h4>Alex Arrieta</h4>
+								<h4>Developer</h4>
+								<p class="text-muted">
+								Alex is a junior at UCI majoring in Software Engineering. He is currently part of the development team and assists with the overall design of applications. When he is not at school, he enjoys sleeping and eating.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="team-member">
+								<img src="https://cdn0.iconfinder.com/data/icons/superuser-web-kit/512/686909-user_people_man_human_head_person-256.png" class="img-responsive img-circle" alt="">
+								<h4>Ken Huang</h4>
+								<h4>Developer</h4>
+								<p class="text-muted">
+								Ken Huang is currently a third-year student at the UCI. He comes from a small city near LA and loves Mexican food. Outside of Whale, he is a Peer Mentor at DECADE PLUS and enjoys gaming.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="team-member">
+								<img src="https://cdn0.iconfinder.com/data/icons/superuser-web-kit/512/686909-user_people_man_human_head_person-256.png" class="img-responsive img-circle" alt="">
+								<h4>Max Troja</h4>
+								<h4>Social Media Manager</h4>
+								<p class="text-muted">
+								Max is a rhetoric student from San Diego, currently living on a friend’s couch in Irvine. He splits his time between screenwriting for a production company, writing articles for a magazine publisher, and running the social media for Whale. With the little free time he has, he likes to play frisbee and go camping with friends.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="team-member">
+								<img src="https://cdn0.iconfinder.com/data/icons/superuser-web-kit/512/686909-user_people_man_human_head_person-256.png" class="img-responsive img-circle" alt="">
+								<h4>Jacob McAuley</h4>
+								<h4>Coffee Boy</h4>
+								<p class="text-muted">
+								Is a sophomore at UCI majoring in computer science. Originally from Corona he now lives in Irvine. He splits his time between school, work, and whale. Constantly gets bugged by Anthony. Avid supporter of fun mode.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="team-member">
+								<img src="https://cdn0.iconfinder.com/data/icons/superuser-web-kit/512/686909-user_people_man_human_head_person-256.png" class="img-responsive img-circle" alt="">
+								<h4>Vivienne Ooi</h4>
+								<h4>Graphic Designer</h4>
+								<p class="text-muted">
+								Wei-Wern (Vivienne) Ooi is a full-time student and a computer science major at UCI. She is also a graphic designer at Whale and an art officer at VGDC. She has a passion for food photography and likes to ride her longboard to and from class.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="team-member">
+								<img src="https://cdn0.iconfinder.com/data/icons/superuser-web-kit/512/686909-user_people_man_human_head_person-256.png" class="img-responsive img-circle" alt="">
+								<h4>Garik Khachatryan</h4>
+								<h4>Dev Co-Lead</h4>
+								<p class="text-muted">
+								Garik is a junior at UCI majoring in software engineering and spends most of his time hunched over behind his computer.  He enjoys long walks on beach and hitting up his local Starbucks every day. He likes to consider himself the jack of all traits - meddling in everyone's business at Whale.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="team-member">
+								<img src="https://cdn0.iconfinder.com/data/icons/superuser-web-kit/512/686909-user_people_man_human_head_person-256.png" class="img-responsive img-circle" alt="">
+								<h4>Matthew Wo</h4>
+								<h4>Dev Co-lead</h4>
+								<p class="text-muted">
+								Matthew is a Computer Science Major student at UCI. His emphasis is on Artificial Intelligence and Machine Learning. He is a frequent contributor to open sourced projects to grow and support the coding community.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- end carousel content -->
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+		</div>
+	</section>
+
+  <!-- Recruitment -->
+  <section id="openings" class="content-section bg-primary">
+      <div class="container text-center">
+        <h2 class="text-center">Job Opportunities</h2>
+        <p class="lead">
+          Want to be a part of our team? Apply now!
+        </p>
+        <ul class="jobs-list lead" style="list-style-type:none; padding-left:0;">
+        </ul>
+        <a href="https://drive.google.com/drive/u/0/folders/0B4u_l2MlUtlUS2plZXRZZTFqTHM" class="btn btn-default btn-lg" target="_blank">View Job Descriptions</a>
+        <a href="https://goo.gl/forms/yoIvd9pmcckrDePg1" class="btn btn-default btn-lg" target="_blank">Apply Now</a>
+      </div>
+    </section>
+
+      <!-- Contact Us-->
+    	<section id="contact" class="content-section text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h2>Contact Whale Startups</h2>
+                <p>Feel free to harpoon us an email at any time for any reason. Be sure to swim with us on all our social media</p>
+                <p><a href="mailto:whalestartups@gmail.com">whalestartups@gmail.com</a></p>
+                <ul class="list-inline banner-social-buttons">
+                  <li><a href="https://www.facebook.com/WhaleStartups/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+	<!-- Footer-->
+	<footer>
       <p>Copyright &copy; 2017 Whale Startups</p>
     </footer>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
 
-      ga('create', 'UA-91604743-1', 'auto');
-      ga('send', 'pageview');
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    </script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-<div id="window-resizer-tooltip" style="display: none;"><a href="#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1280</span> x <span class="tooltipHeight" id="winHeight">735</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">838</span> x <span class="tooltipHeight" id="vpHeight">661</span></div></body></html>
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
