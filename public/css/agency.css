@@ -52,8 +52,14 @@ h6 {
 .bg-light-gray {
   background-color: #eeeeee;
 }
+.bg-dark-gray{
+  background-color: #333;
+}
 .bg-darkest-gray {
   background-color: #222222;
+}
+.whale-teal{
+  background-color: #00adad !important;
 }
 .btn-primary {
   color: white;
@@ -164,8 +170,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #eab100;
+  border-color: #eab100;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -173,30 +179,31 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #eab100;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 1px;
-  color: white;
+  color: black;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  background-color:#eab100;
+  border-radius:6px;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
-  border-radius: 0;
-  color: white;
-  background-color: #fed136;
+  border-radius: 6px;
+  color: black;
+  background-color: #70dbdb;
 }
-.navbar-custom .navbar-nav > .active > a:hover,
+/*.navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
   background-color: #fec503;
-}
+}*/
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
@@ -213,7 +220,7 @@ fieldset[disabled] .btn-xl.active {
     transition: all 0.3s;
   }
   .navbar-custom .navbar-nav > .active > a {
-    border-radius: 3px;
+    border-radius: 6px;
   }
 }
 @media (min-width: 768px) {
@@ -261,7 +268,10 @@ header .intro-text .intro-heading {
     padding-top: 300px;
     padding-bottom: 200px;
   }
-  header .intro-text .intro-lead-in {
+
+
+
+  er .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
@@ -541,6 +551,8 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
+  width:256px;
+  height:256px;
 }
 .team-member h4 {
   margin-top: 25px;
@@ -609,8 +621,11 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 footer {
-  padding: 25px 0;
+  padding: 10px 0;
   text-align: center;
+}
+footer p{
+  font-size:16px;
 }
 footer span.copyright {
   line-height: 40px;
@@ -753,4 +768,29 @@ body {
     width:100%;
     overflow:hidden;
     display:none;
+}
+#mce-EMAIL{
+  height: 32px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 20px;
+  background: #70dbdb;
+}
+.mobile-social{
+  width: 95%;
+  margin-top:10px;
+}
+.navbar-brand {
+    padding-top: 0;
+}
+p {
+    font-size: 20px;
+}
+#car-inner{
+  min-height:700px;
+}
+@media (max-width: 1215px) {
+  #car-inner{
+    min-height:660px;
+  }
 }
