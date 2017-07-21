@@ -551,8 +551,8 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
-  width:256px;
-  height:256px;
+  height: 100%;
+  width: auto;
 }
 .team-member h4 {
   margin-top: 25px;
@@ -561,6 +561,13 @@ section h3.section-subheading {
 }
 .team-member p {
   margin-top: 0;
+}
+.img_wrapper {
+	height: 256px;
+	width: 256px;
+	border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
 }
 aside.clients img {
   margin: 50px auto;
